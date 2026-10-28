@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Avinash Studio — High-Pitch Client Finder & Outreach Engine</title>
+    <meta
+      name="description"
+      content="Avinash Studio — Real-Time AI Client Discovery (Groq & Gemini), Direct Android SIM 1 SMS Cloud Gateway, Gmail App Key Automation & High-Pitch Outreach Studio."
+    />
+    <meta property="og:title" content="Avinash Studio — High-Pitch Client Finder & Outreach Engine" />
+    <meta
+      property="og:description"
+      content="Avinash Studio — Real-Time AI Client Discovery, Direct Android SIM 1 SMS Cloud Gateway, Gmail App Key Automation & High-Pitch Outreach Studio."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      // AI Studio environment: HMR is disabled. Suppress Vite HMR WebSocket connection errors.
+      window.addEventListener('unhandledrejection', function(event) {
+        if (event && event.reason) {
+          const msg = String(event.reason.message || event.reason);
+          const stack = String(event.reason.stack || '');
+          if (
+            msg.includes('WebSocket') ||
+            msg.includes('closed without opened') ||
+            stack.includes('@vite/client')
+          ) {
+            event.preventDefault();
+          }
+        }
+      });
+      window.addEventListener('error', function(event) {
+        const msg = String(event.message || '');
+        const file = String(event.filename || '');
+        if (msg.includes('WebSocket') || file.includes('@vite/client')) {
+          event.preventDefault();
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

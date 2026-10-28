@@ -1,0 +1,8 @@
+{
+  "name": "Remix CreatorPilot AI",
+  "description": "An autonomous agency platform that identifies freelance opportunities, crafts winning pitches, and streamlines end-to-end creative project delivery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
